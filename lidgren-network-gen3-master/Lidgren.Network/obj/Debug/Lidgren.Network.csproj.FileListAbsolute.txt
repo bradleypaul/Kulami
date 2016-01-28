@@ -1,0 +1,6 @@
+C:\Users\Paul\Documents\GitHub\Kulami-master\Kulami-master\Kulami\lidgren-network-gen3-master\Lidgren.Network\bin\Debug\Lidgren.Network.XML
+C:\Users\Paul\Documents\GitHub\Kulami-master\Kulami-master\Kulami\lidgren-network-gen3-master\Lidgren.Network\bin\Debug\Lidgren.Network.dll
+C:\Users\Paul\Documents\GitHub\Kulami-master\Kulami-master\Kulami\lidgren-network-gen3-master\Lidgren.Network\bin\Debug\Lidgren.Network.pdb
+C:\Users\Paul\Documents\GitHub\Kulami-master\Kulami-master\Kulami\lidgren-network-gen3-master\Lidgren.Network\obj\Debug\Lidgren.Network.csprojResolveAssemblyReference.cache
+C:\Users\Paul\Documents\GitHub\Kulami-master\Kulami-master\Kulami\lidgren-network-gen3-master\Lidgren.Network\obj\Debug\Lidgren.Network.dll
+C:\Users\Paul\Documents\GitHub\Kulami-master\Kulami-master\Kulami\lidgren-network-gen3-master\Lidgren.Network\obj\Debug\Lidgren.Network.pdb

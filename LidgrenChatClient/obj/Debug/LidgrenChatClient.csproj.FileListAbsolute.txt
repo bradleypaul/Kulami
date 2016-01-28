@@ -1,0 +1,9 @@
+C:\Users\Paul\Documents\GitHub\Kulami-master\Kulami-master\Kulami\LidgrenChatClient\bin\Debug\LidgrenChatClient.dll.config
+C:\Users\Paul\Documents\GitHub\Kulami-master\Kulami-master\Kulami\LidgrenChatClient\bin\Debug\LidgrenChatClient.dll
+C:\Users\Paul\Documents\GitHub\Kulami-master\Kulami-master\Kulami\LidgrenChatClient\bin\Debug\LidgrenChatClient.pdb
+C:\Users\Paul\Documents\GitHub\Kulami-master\Kulami-master\Kulami\LidgrenChatClient\bin\Debug\Lidgren.Network.dll
+C:\Users\Paul\Documents\GitHub\Kulami-master\Kulami-master\Kulami\LidgrenChatClient\bin\Debug\Lidgren.Network.pdb
+C:\Users\Paul\Documents\GitHub\Kulami-master\Kulami-master\Kulami\LidgrenChatClient\bin\Debug\Lidgren.Network.xml
+C:\Users\Paul\Documents\GitHub\Kulami-master\Kulami-master\Kulami\LidgrenChatClient\obj\Debug\LidgrenChatClient.csprojResolveAssemblyReference.cache
+C:\Users\Paul\Documents\GitHub\Kulami-master\Kulami-master\Kulami\LidgrenChatClient\obj\Debug\LidgrenChatClient.dll
+C:\Users\Paul\Documents\GitHub\Kulami-master\Kulami-master\Kulami\LidgrenChatClient\obj\Debug\LidgrenChatClient.pdb

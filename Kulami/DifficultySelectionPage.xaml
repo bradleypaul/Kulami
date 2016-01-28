@@ -1,0 +1,32 @@
+﻿<UserControl x:Class="Kulami.DifficultySelectionPage"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="900" d:DesignWidth="1440">
+    <Grid Background="Black">
+        <Canvas Name="SelectionBackground" >
+            <Button Name="EasyLevelButton" Content="" Canvas.Left="228" Canvas.Top="325" Width="402" Height="357" Click="EasyLevelButton_Click" BorderBrush="{x:Null}" MouseEnter="EasyLevelButton_MouseEnter" MouseLeave="EasyLevelButton_MouseLeave"/>
+            <Button x:Name="HardLevelButton" Content="" Canvas.Right="378" Canvas.Top="325" Width="402" Height="357" Click="HardLevelButton_Click" BorderBrush="{x:Null}" Canvas.Left="810" MouseEnter="HardLevelButton_MouseEnter" MouseLeave="HardLevelButton_MouseLeave"/>
+            <Label Name="LevelLabel" Content="Select Difficulty" Canvas.Top="75" Height="133" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontFamily="/Kulami;component/#SquareFont" FontSize="90" Foreground="#FF79CCFF" Width="1440" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            <Button Name="BackButton" Content="" Canvas.Left="56" Canvas.Top="96" Width="85" Height="85" BorderBrush="{x:Null}" FontFamily="webdings" FontSize="72" HorizontalAlignment="Center" VerticalAlignment="Center" TextOptions.TextHintingMode="Animated" Foreground="#FFBEEAFF" Click="BackButtonClick" Style="{StaticResource MyButtonStyle}" Background="{x:Null}" MouseEnter="BackButton_MouseEnter" MouseLeave="BackButton_MouseLeave"/>
+
+            <Canvas.Triggers>
+                <!-- Animates the rectangle's opacity. -->
+                <EventTrigger RoutedEvent="Rectangle.Loaded">
+                    <BeginStoryboard>
+                        <Storyboard>
+                            <DoubleAnimation
+                                    Storyboard.TargetName="SelectionBackground" 
+                                    Storyboard.TargetProperty="Opacity"
+                                    From="0.0" To="1.0" Duration="0:0:0.8" 
+                                    AutoReverse="False" />
+                        </Storyboard>
+                    </BeginStoryboard>
+                </EventTrigger>
+            </Canvas.Triggers>
+        </Canvas>
+
+    </Grid>
+</UserControl>
